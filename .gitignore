@@ -1,0 +1,21 @@
+node_modules/
+dist/
+build/
+coverage/
+client/.env
+server/.env
+!.env.example
+*.log
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# AI context files (local only)
+CLAUDE.md
+AGENTS.md
+docs/ai/
+.claude/
+.github/copilot-instructions.md
+AI_USAGE.md
+DEV_LOG.md

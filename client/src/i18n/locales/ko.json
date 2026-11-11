@@ -1,0 +1,173 @@
+{
+  "app": {
+    "name": "지원자 관리"
+  },
+  "nav": {
+    "candidates": "지원자"
+  },
+  "language": {
+    "label": "언어"
+  },
+  "common": {
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "수정",
+    "tryAgain": "다시 시도",
+    "backToCandidates": "지원자 목록으로 돌아가기",
+    "notProvided": "미입력",
+    "breadcrumb": "경로"
+  },
+  "status": {
+    "NEW": "신규",
+    "CONTACTED": "연락함",
+    "SHORTLISTED": "최종 후보",
+    "REJECTED": "불합격",
+    "statusOf": "{{name}}의 상태",
+    "changed": "{{name}} 님을 \"{{status}}\"(으)로 변경했습니다"
+  },
+  "sort": {
+    "label": "정렬",
+    "aria": "지원자 정렬",
+    "newest": "최신순",
+    "oldest": "오래된순",
+    "name_asc": "이름 (가나다순)",
+    "name_desc": "이름 (역순)"
+  },
+  "years_other": "{{count}}년",
+  "list": {
+    "title": "지원자",
+    "description": "지원자를 관리하고, 채용 진행 상태를 추적하며, 경력을 검토하세요.",
+    "add": "지원자 추가",
+    "searchPlaceholder": "이름, 이메일, 직무 또는 기술로 검색…",
+    "searchAria": "지원자 검색",
+    "clearSearch": "검색어 지우기",
+    "filterAria": "상태별 필터",
+    "all": "전체",
+    "col": {
+      "candidate": "지원자",
+      "position": "지원 직무",
+      "experience": "경력",
+      "skills": "기술",
+      "status": "상태",
+      "added": "등록일"
+    },
+    "actionsFor": "{{name}} 작업",
+    "viewDetails": "상세 보기",
+    "errorTitle": "지원자 목록을 불러올 수 없습니다",
+    "noMatchTitle": "조건에 맞는 지원자가 없습니다",
+    "noMatchDescription": "다른 키워드나 상태를 시도하거나, 필터를 지워 전체 목록을 확인하세요.",
+    "clearFilters": "필터 지우기",
+    "emptyTitle": "아직 지원자가 없습니다",
+    "emptyDescription": "첫 번째 지원자를 추가하여 지원 현황을 관리해 보세요.",
+    "deleted": "{{name}} 님을 삭제했습니다"
+  },
+  "pagination": {
+    "label": "페이지 이동",
+    "rowsPerPage": "페이지당 행 수",
+    "showing": "전체 <b>{{total}}</b>명 중 <b>{{from}}–{{to}}</b>번째 표시",
+    "previous": "이전 페이지",
+    "next": "다음 페이지"
+  },
+  "deleteDialog": {
+    "title": "이 지원자를 삭제할까요?",
+    "description": "<b>{{name}}</b> 님과 AI 요약이 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다."
+  },
+  "detail": {
+    "title": "지원자 상세",
+    "subtitle": "{{position}} · 경력 {{years}}",
+    "notFoundTitle": "지원자를 찾을 수 없습니다",
+    "notFoundDescription": "지원자가 삭제되었거나 링크가 올바르지 않을 수 있습니다.",
+    "aiSummary": "AI 요약",
+    "noSummary": "아직 AI 요약이 없습니다",
+    "summaryTooShort": "AI 요약을 사용하려면 경력 설명을 {{min}}자 이상 입력하세요.",
+    "summaryPlaceholder": "지원자의 경력에 대한 간단한 요약이 여기에 표시됩니다.",
+    "generated": "{{date}}에 생성됨",
+    "experience": "경력",
+    "noExperience": "경력 설명이 없습니다.",
+    "contact": "연락처",
+    "skills": "기술",
+    "activity": "활동",
+    "added": "{{date}}에 등록됨",
+    "updated": "{{date}}에 수정됨",
+    "summarize": "AI로 요약",
+    "regenerate": "다시 생성",
+    "generating": "생성 중…",
+    "summaryDone": "AI 요약을 생성했습니다",
+    "aiDisclaimer": "위 정보를 바탕으로 AI가 생성했습니다. 판단 전에 한 번 더 확인하세요."
+  },
+  "form": {
+    "addTitle": "지원자 추가",
+    "editTitle": "지원자 수정",
+    "addDescription": "정보를 입력하여 새 지원자를 추가하세요.",
+    "editDescription": "지원자 정보를 수정하세요.",
+    "newCrumb": "새 지원자",
+    "editCrumb": "수정",
+    "basicTitle": "기본 정보",
+    "basicDescription": "지원자를 식별하고 연락할 수 있는 정보입니다.",
+    "experienceTitle": "경력",
+    "experienceDescription": "지원자 검토와 AI 요약 생성에 사용됩니다.",
+    "fullName": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "position": "지원 직무",
+    "yearsOfExperience": "경력 연수",
+    "skills": "기술",
+    "experienceText": "경력 설명",
+    "placeholders": {
+      "fullName": "예: 홍길동",
+      "email": "name@example.com",
+      "phone": "예: 01012345678",
+      "position": "예: 백엔드 개발자",
+      "skills": "예: React, Node.js, PostgreSQL",
+      "experience": "이전 직무, 프로젝트, 성과를 설명해 주세요…"
+    },
+    "hints": {
+      "years": "0에서 50 사이",
+      "skills": "Enter 또는 쉼표로 기술을 추가하세요"
+    },
+    "aiReady": "AI 요약을 만들기에 충분한 길이입니다 ({{count}}자)",
+    "aiNotReady": "{{count}}자 — AI 요약을 만들려면 최소 {{min}}자가 필요합니다",
+    "removeSkill": "{{skill}} 삭제",
+    "save": "변경 사항 저장",
+    "add": "지원자 추가",
+    "added": "지원자를 추가했습니다",
+    "updated": "지원자 정보를 수정했습니다",
+    "emailExists": "이 이메일을 사용하는 지원자가 이미 있습니다",
+    "unsavedConfirm": "저장하지 않은 변경 사항이 있습니다. 이 페이지를 나가시겠습니까?",
+    "notFoundTitle": "지원자를 찾을 수 없습니다",
+    "notFoundDescription": "지원자가 삭제되었을 수 있습니다."
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "description": "찾으시는 페이지가 없거나 이동되었습니다."
+  },
+  "validation": {
+    "fullNameRequired": "이름을 입력하세요",
+    "fullNameTooLong": "이름이 너무 깁니다",
+    "emailRequired": "이메일을 입력하세요",
+    "emailInvalid": "올바른 이메일 주소가 아닙니다",
+    "phoneTooLong": "전화번호가 너무 깁니다",
+    "phoneInvalid": "전화번호에는 숫자, 공백, + ( ) - . 만 사용할 수 있습니다",
+    "positionRequired": "지원 직무를 입력하세요",
+    "positionTooLong": "직무명이 너무 깁니다",
+    "yearsNumber": "경력 연수는 숫자여야 합니다",
+    "yearsInteger": "경력 연수는 정수여야 합니다",
+    "yearsRange": "0에서 50 사이여야 합니다"
+  },
+  "errors": {
+    "NOT_FOUND": "요청하신 정보를 찾을 수 없습니다.",
+    "EMAIL_ALREADY_EXISTS": "이 이메일을 사용하는 지원자가 이미 있습니다.",
+    "INTERNAL_ERROR": "서버에 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.",
+    "TIMEOUT": "요청 시간이 초과되었습니다. 다시 시도해 주세요.",
+    "NETWORK_ERROR": "서버에 연결할 수 없습니다. 네트워크를 확인하고 다시 시도해 주세요.",
+    "UNKNOWN": "문제가 발생했습니다. 다시 시도해 주세요.",
+    "RATE_LIMITED": "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+    "AI_UPSTREAM_ERROR": "AI 서비스를 현재 사용할 수 없습니다. 나중에 다시 시도해 주세요.",
+    "EXPERIENCE_TOO_SHORT": "경력 설명이 너무 짧아 요약할 수 없습니다.",
+    "AI_TIMEOUT": "AI 서비스 응답이 너무 오래 걸립니다. 다시 시도해 주세요.",
+    "AI_QUOTA_EXCEEDED": "AI 서비스 사용 한도에 도달했습니다. 나중에 다시 시도해 주세요.",
+    "AI_AUTH_ERROR": "서버의 AI 서비스 설정이 올바르지 않습니다 (API 키 오류).",
+    "AI_NOT_CONFIGURED": "서버에 AI 서비스가 설정되어 있지 않습니다.",
+    "AI_EMPTY_RESPONSE": "AI 서비스가 빈 응답을 반환했습니다. 다시 시도해 주세요."
+  }
+}

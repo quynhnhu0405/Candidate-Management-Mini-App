@@ -1,0 +1,174 @@
+{
+  "app": {
+    "name": "Candidate Management"
+  },
+  "nav": {
+    "candidates": "Candidates"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "tryAgain": "Try again",
+    "backToCandidates": "Back to candidates",
+    "notProvided": "Not provided",
+    "breadcrumb": "Breadcrumb"
+  },
+  "status": {
+    "NEW": "New",
+    "CONTACTED": "Contacted",
+    "SHORTLISTED": "Shortlisted",
+    "REJECTED": "Rejected",
+    "statusOf": "Status of {{name}}",
+    "changed": "{{name}} marked as {{status}}"
+  },
+  "sort": {
+    "label": "Sort by",
+    "aria": "Sort candidates",
+    "newest": "Newest first",
+    "oldest": "Oldest first",
+    "name_asc": "Name (A–Z)",
+    "name_desc": "Name (Z–A)"
+  },
+  "years_one": "{{count}} year",
+  "years_other": "{{count}} years",
+  "list": {
+    "title": "Candidates",
+    "description": "Manage applicants, track their hiring status and review their experience.",
+    "add": "Add candidate",
+    "searchPlaceholder": "Search name, email, position or skill…",
+    "searchAria": "Search candidates",
+    "clearSearch": "Clear search",
+    "filterAria": "Filter by status",
+    "all": "All",
+    "col": {
+      "candidate": "Candidate",
+      "position": "Position",
+      "experience": "Experience",
+      "skills": "Skills",
+      "status": "Status",
+      "added": "Added"
+    },
+    "actionsFor": "Actions for {{name}}",
+    "viewDetails": "View details",
+    "errorTitle": "Could not load candidates",
+    "noMatchTitle": "No candidates match your filters",
+    "noMatchDescription": "Try a different keyword or status, or clear the filters to see everyone.",
+    "clearFilters": "Clear filters",
+    "emptyTitle": "No candidates yet",
+    "emptyDescription": "Add your first candidate to start tracking applicants.",
+    "deleted": "{{name}} was deleted"
+  },
+  "pagination": {
+    "label": "Pagination",
+    "rowsPerPage": "Rows per page",
+    "showing": "Showing <b>{{from}}–{{to}}</b> of <b>{{total}}</b> candidates",
+    "previous": "Previous page",
+    "next": "Next page"
+  },
+  "deleteDialog": {
+    "title": "Delete this candidate?",
+    "description": "<b>{{name}}</b> and their AI summary will be permanently removed. This action cannot be undone."
+  },
+  "detail": {
+    "title": "Candidate details",
+    "subtitle": "{{position}} · {{years}} of experience",
+    "notFoundTitle": "Candidate not found",
+    "notFoundDescription": "This candidate may have been deleted or the link is incorrect.",
+    "aiSummary": "AI summary",
+    "noSummary": "No AI summary yet",
+    "summaryTooShort": "Add an experience description of at least {{min}} characters to enable AI summaries.",
+    "summaryPlaceholder": "A short summary of this candidate's experience will appear here.",
+    "generated": "Generated {{date}}",
+    "experience": "Experience",
+    "noExperience": "No experience description provided.",
+    "contact": "Contact",
+    "skills": "Skills",
+    "activity": "Activity",
+    "added": "Added {{date}}",
+    "updated": "Updated {{date}}",
+    "summarize": "Summarize with AI",
+    "regenerate": "Regenerate",
+    "generating": "Generating…",
+    "summaryDone": "AI summary generated",
+    "aiDisclaimer": "AI-generated from the details above. Please double-check before deciding."
+  },
+  "form": {
+    "addTitle": "Add candidate",
+    "editTitle": "Edit candidate",
+    "addDescription": "Fill in the details to add a new candidate.",
+    "editDescription": "Update the candidate's information.",
+    "newCrumb": "New candidate",
+    "editCrumb": "Edit",
+    "basicTitle": "Basic information",
+    "basicDescription": "How to identify and reach the candidate.",
+    "experienceTitle": "Experience",
+    "experienceDescription": "Used to review the candidate and generate the AI summary.",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "position": "Position applied for",
+    "yearsOfExperience": "Years of experience",
+    "skills": "Skills",
+    "experienceText": "Experience description",
+    "placeholders": {
+      "fullName": "e.g. Nguyen Van A",
+      "email": "name@example.com",
+      "phone": "e.g. 0912345678",
+      "position": "e.g. Backend Developer",
+      "skills": "e.g. React, Node.js, PostgreSQL",
+      "experience": "Describe past roles, projects and achievements…"
+    },
+    "hints": {
+      "years": "Between 0 and 50",
+      "skills": "Press Enter or comma to add a skill"
+    },
+    "aiReady": "Long enough for an AI summary ({{count}} characters)",
+    "aiNotReady": "{{count}} characters — at least {{min}} are needed to generate an AI summary",
+    "removeSkill": "Remove {{skill}}",
+    "save": "Save changes",
+    "add": "Add candidate",
+    "added": "Candidate added",
+    "updated": "Candidate updated",
+    "emailExists": "A candidate with this email already exists",
+    "unsavedConfirm": "You have unsaved changes. Leave this page?",
+    "notFoundTitle": "Candidate not found",
+    "notFoundDescription": "This candidate may have been deleted."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved."
+  },
+  "validation": {
+    "fullNameRequired": "Full name is required",
+    "fullNameTooLong": "Full name is too long",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "phoneTooLong": "Phone number is too long",
+    "phoneInvalid": "Phone can only contain digits, spaces and + ( ) - .",
+    "positionRequired": "Position is required",
+    "positionTooLong": "Position is too long",
+    "yearsNumber": "Years of experience must be a number",
+    "yearsInteger": "Years of experience must be a whole number",
+    "yearsRange": "Must be between 0 and 50"
+  },
+  "errors": {
+    "NOT_FOUND": "We couldn't find what you were looking for.",
+    "EMAIL_ALREADY_EXISTS": "A candidate with this email already exists.",
+    "INTERNAL_ERROR": "Something went wrong on the server. Please try again later.",
+    "TIMEOUT": "The request timed out. Please try again.",
+    "NETWORK_ERROR": "Cannot reach the server. Check your connection and try again.",
+    "UNKNOWN": "Something went wrong. Please try again.",
+    "RATE_LIMITED": "Too many requests. Please wait a moment and try again.",
+    "AI_UPSTREAM_ERROR": "The AI service is unavailable right now. Please try again later.",
+    "EXPERIENCE_TOO_SHORT": "The experience description is too short to summarize.",
+    "AI_TIMEOUT": "The AI service took too long to respond. Please try again.",
+    "AI_QUOTA_EXCEEDED": "The AI service has reached its usage limit. Please try again later.",
+    "AI_AUTH_ERROR": "The AI service is not set up correctly on the server (invalid API key).",
+    "AI_NOT_CONFIGURED": "The AI service is not configured on the server.",
+    "AI_EMPTY_RESPONSE": "The AI service returned an empty answer. Please try again."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "app": {
+    "name": "Quản lý ứng viên"
+  },
+  "nav": {
+    "candidates": "Ứng viên"
+  },
+  "language": {
+    "label": "Ngôn ngữ"
+  },
+  "common": {
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "tryAgain": "Thử lại",
+    "backToCandidates": "Quay lại danh sách ứng viên",
+    "notProvided": "Chưa cung cấp",
+    "breadcrumb": "Đường dẫn"
+  },
+  "status": {
+    "NEW": "Mới",
+    "CONTACTED": "Đã liên hệ",
+    "SHORTLISTED": "Lọt vòng trong",
+    "REJECTED": "Từ chối",
+    "statusOf": "Trạng thái của {{name}}",
+    "changed": "Đã chuyển {{name}} sang \"{{status}}\""
+  },
+  "sort": {
+    "label": "Sắp xếp theo",
+    "aria": "Sắp xếp ứng viên",
+    "newest": "Mới nhất",
+    "oldest": "Cũ nhất",
+    "name_asc": "Tên (A–Z)",
+    "name_desc": "Tên (Z–A)"
+  },
+  "years_other": "{{count}} năm",
+  "list": {
+    "title": "Ứng viên",
+    "description": "Quản lý hồ sơ ứng viên, theo dõi trạng thái tuyển dụng và xem kinh nghiệm.",
+    "add": "Thêm ứng viên",
+    "searchPlaceholder": "Tìm theo tên, email, vị trí hoặc kỹ năng…",
+    "searchAria": "Tìm kiếm ứng viên",
+    "clearSearch": "Xóa tìm kiếm",
+    "filterAria": "Lọc theo trạng thái",
+    "all": "Tất cả",
+    "col": {
+      "candidate": "Ứng viên",
+      "position": "Vị trí",
+      "experience": "Kinh nghiệm",
+      "skills": "Kỹ năng",
+      "status": "Trạng thái",
+      "added": "Ngày thêm"
+    },
+    "actionsFor": "Thao tác với {{name}}",
+    "viewDetails": "Xem chi tiết",
+    "errorTitle": "Không tải được danh sách ứng viên",
+    "noMatchTitle": "Không có ứng viên phù hợp với bộ lọc",
+    "noMatchDescription": "Hãy thử từ khóa hoặc trạng thái khác, hoặc xóa bộ lọc để xem tất cả.",
+    "clearFilters": "Xóa bộ lọc",
+    "emptyTitle": "Chưa có ứng viên nào",
+    "emptyDescription": "Thêm ứng viên đầu tiên để bắt đầu theo dõi hồ sơ.",
+    "deleted": "Đã xóa {{name}}"
+  },
+  "pagination": {
+    "label": "Phân trang",
+    "rowsPerPage": "Số dòng mỗi trang",
+    "showing": "Hiển thị <b>{{from}}–{{to}}</b> trong <b>{{total}}</b> ứng viên",
+    "previous": "Trang trước",
+    "next": "Trang sau"
+  },
+  "deleteDialog": {
+    "title": "Xóa ứng viên này?",
+    "description": "<b>{{name}}</b> và bản tóm tắt AI sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác."
+  },
+  "detail": {
+    "title": "Chi tiết ứng viên",
+    "subtitle": "{{position}} · {{years}} kinh nghiệm",
+    "notFoundTitle": "Không tìm thấy ứng viên",
+    "notFoundDescription": "Ứng viên có thể đã bị xóa hoặc đường dẫn không đúng.",
+    "aiSummary": "Tóm tắt bằng AI",
+    "noSummary": "Chưa có bản tóm tắt AI",
+    "summaryTooShort": "Hãy nhập mô tả kinh nghiệm tối thiểu {{min}} ký tự để dùng tính năng tóm tắt AI.",
+    "summaryPlaceholder": "Bản tóm tắt ngắn về kinh nghiệm của ứng viên sẽ hiển thị ở đây.",
+    "generated": "Tạo lúc {{date}}",
+    "experience": "Kinh nghiệm",
+    "noExperience": "Chưa có mô tả kinh nghiệm.",
+    "contact": "Liên hệ",
+    "skills": "Kỹ năng",
+    "activity": "Hoạt động",
+    "added": "Thêm lúc {{date}}",
+    "updated": "Cập nhật lúc {{date}}",
+    "summarize": "Tóm tắt bằng AI",
+    "regenerate": "Tạo lại",
+    "generating": "Đang tạo…",
+    "summaryDone": "Đã tạo bản tóm tắt AI",
+    "aiDisclaimer": "Do AI tạo từ thông tin ở trên. Hãy kiểm tra lại trước khi quyết định."
+  },
+  "form": {
+    "addTitle": "Thêm ứng viên",
+    "editTitle": "Sửa ứng viên",
+    "addDescription": "Điền thông tin để thêm ứng viên mới.",
+    "editDescription": "Cập nhật thông tin của ứng viên.",
+    "newCrumb": "Ứng viên mới",
+    "editCrumb": "Sửa",
+    "basicTitle": "Thông tin cơ bản",
+    "basicDescription": "Thông tin nhận diện và liên hệ với ứng viên.",
+    "experienceTitle": "Kinh nghiệm",
+    "experienceDescription": "Dùng để đánh giá ứng viên và tạo bản tóm tắt AI.",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "position": "Vị trí ứng tuyển",
+    "yearsOfExperience": "Số năm kinh nghiệm",
+    "skills": "Kỹ năng",
+    "experienceText": "Mô tả kinh nghiệm",
+    "placeholders": {
+      "fullName": "VD: Nguyễn Văn A",
+      "email": "ten@example.com",
+      "phone": "VD: 0912345678",
+      "position": "VD: Backend Developer",
+      "skills": "VD: React, Node.js, PostgreSQL",
+      "experience": "Mô tả các vị trí đã làm, dự án và thành tích…"
+    },
+    "hints": {
+      "years": "Từ 0 đến 50",
+      "skills": "Nhấn Enter hoặc dấu phẩy để thêm kỹ năng"
+    },
+    "aiReady": "Đủ dài để tóm tắt bằng AI ({{count}} ký tự)",
+    "aiNotReady": "{{count}} ký tự — cần ít nhất {{min}} ký tự để tạo bản tóm tắt AI",
+    "removeSkill": "Xóa {{skill}}",
+    "save": "Lưu thay đổi",
+    "add": "Thêm ứng viên",
+    "added": "Đã thêm ứng viên",
+    "updated": "Đã cập nhật ứng viên",
+    "emailExists": "Đã có ứng viên dùng email này",
+    "unsavedConfirm": "Bạn có thay đổi chưa lưu. Rời khỏi trang này?",
+    "notFoundTitle": "Không tìm thấy ứng viên",
+    "notFoundDescription": "Ứng viên này có thể đã bị xóa."
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn tìm không tồn tại hoặc đã được di chuyển."
+  },
+  "validation": {
+    "fullNameRequired": "Vui lòng nhập họ và tên",
+    "fullNameTooLong": "Họ và tên quá dài",
+    "emailRequired": "Vui lòng nhập email",
+    "emailInvalid": "Email không hợp lệ",
+    "phoneTooLong": "Số điện thoại quá dài",
+    "phoneInvalid": "Số điện thoại chỉ gồm chữ số, khoảng trắng và + ( ) - .",
+    "positionRequired": "Vui lòng nhập vị trí ứng tuyển",
+    "positionTooLong": "Vị trí quá dài",
+    "yearsNumber": "Số năm kinh nghiệm phải là số",
+    "yearsInteger": "Số năm kinh nghiệm phải là số nguyên",
+    "yearsRange": "Phải nằm trong khoảng từ 0 đến 50"
+  },
+  "errors": {
+    "NOT_FOUND": "Không tìm thấy dữ liệu bạn cần.",
+    "EMAIL_ALREADY_EXISTS": "Đã có ứng viên dùng email này.",
+    "INTERNAL_ERROR": "Máy chủ gặp sự cố. Vui lòng thử lại sau.",
+    "TIMEOUT": "Yêu cầu quá thời gian chờ. Vui lòng thử lại.",
+    "NETWORK_ERROR": "Không kết nối được máy chủ. Hãy kiểm tra mạng và thử lại.",
+    "UNKNOWN": "Đã có lỗi xảy ra. Vui lòng thử lại.",
+    "RATE_LIMITED": "Bạn thao tác quá nhanh. Vui lòng đợi một lát rồi thử lại.",
+    "AI_UPSTREAM_ERROR": "Dịch vụ AI hiện không khả dụng. Vui lòng thử lại sau.",
+    "EXPERIENCE_TOO_SHORT": "Mô tả kinh nghiệm quá ngắn để tóm tắt.",
+    "AI_TIMEOUT": "Dịch vụ AI phản hồi quá lâu. Vui lòng thử lại.",
+    "AI_QUOTA_EXCEEDED": "Dịch vụ AI đã hết hạn mức sử dụng. Vui lòng thử lại sau.",
+    "AI_AUTH_ERROR": "Dịch vụ AI chưa được cấu hình đúng trên máy chủ (API key không hợp lệ).",
+    "AI_NOT_CONFIGURED": "Máy chủ chưa cấu hình dịch vụ AI.",
+    "AI_EMPTY_RESPONSE": "Dịch vụ AI trả về kết quả trống. Vui lòng thử lại."
+  }
+}
